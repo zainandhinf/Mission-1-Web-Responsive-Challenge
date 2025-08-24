@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 1 Web Responsive Challenge - Zainandhi Nur Fathurrohman</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="nav">
+        <div class="nav-container">
+            <div class="logo">Zainandhi</div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="#content">Home</a></li>
+                <li><a href="#content-2">Education</a></li>
+                <li><a href="#content-3">Skills</a></li>
+                <li><a href="#content-4">Portfolio</a></li>
+                <li><a href="#content-5">Media</a></li>
+                <li><a href="#content-6">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- HOME -->
+    <div class="content" id="content">
+        <span class="circle-1"></span>
+        <span class="circle-2"></span>
+        <span class="circle-3"></span>
+        <div class="left">
+            <div class="img">
+                <img src="assets/img/profile.png" alt="">
+            </div>
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#CBDCEB"
+                    d="M31.4,-46.9C44.5,-40.4,61.6,-38.2,66.5,-29.7C71.5,-21.2,64.3,-6.5,62.9,9.7C61.5,25.8,66,43.5,58.9,50.3C51.8,57.2,33.2,53.3,17.6,56.3C2,59.2,-10.6,69,-20,66.8C-29.3,64.6,-35.6,50.4,-46.3,39.4C-57,28.3,-72.3,20.5,-75.3,9.9C-78.3,-0.7,-69,-14,-59.8,-24.5C-50.6,-35,-41.6,-42.8,-31.6,-50.7C-21.7,-58.7,-10.8,-66.7,-0.9,-65.4C9.1,-64.1,18.3,-53.3,31.4,-46.9Z"
+                    transform="translate(100 100)" />
+            </svg>
+        </div>
+        <div class="right">
+            <h1>About Me</h1>
+            <div class="name">
+                <h2>HI, I'm Zainandhi</h2>
+                <h2>Nur Fathurrohman</h2>
+            </div>
+            <span class="line"></span>
+            <p>Halo, saya adalah seorang mahasiswa Program Studi Teknik Informatika di Politeknik Negeri Bandung dengan minat dalam pengembangan web. Saya memiliki pengalaman dalam membangun proyek kecil menggunakan HTML, CSS, PHP, dan
+                JavaScript. Saya senang belajar teknologi baru dan fokus untuk mengembangkan portofolio yang berguna bagi karir saya kedepannya.
+            </p>
+        </div>
+    </div>
+    <!-- END HOME -->
+
+    <!-- EDUCATION -->
+    <div class="content-2" id="content-2">
+        <h1>Education</h1>
+        <div class="wrap-card">
+            <div class="card">
+                <div class="picture">
+                    <img src="assets/img/sd.png" alt="">
+                </div>
+                <p class="title"> SDN Budhi Karya Cimahi
+                    <span>2012-2018</span>
+                </p>
+            </div>
+            <div class="card">
+                <div class="picture">
+                    <img src="assets/img/smp.jpeg" alt="">
+                </div>
+                <p class="title"> SMPN 6 Cimahi
+                    <span>2018-2021</span>
+                </p>
+            </div>
+            <div class="card">
+                <div class="picture">
+                    <img src="assets/img/smk.jpeg" alt="">
+                </div>
+                <p class="title"> SMK TI Pembangunan Cimahi
+                    <span>Software Engineering</span>
+                    <span>2021-2024</span>
+                </p>
+            </div>
+            <div class="card">
+                <div class="picture">
+                    <img src="assets/img/kuliah.jpeg" alt="">
+                </div>
+                <p class="title"> Politeknik Negeri Bandung
+                    <span>D3 - Informatics Engineering</span>
+                    <span>2024-Sekarang</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- END EDUCATION -->
+
+    <!-- SKILLS -->
+    <div class="content-3" id="content-3">
+        <h1>Skills</h1>
+        <div class="img-skill">
+            <img src="assets/img/html.png" alt="" width="80">
+            <img src="assets/img/js.png" alt="" width="80">
+            <img src="assets/img/css.png" alt="" width="80">
+            <img src="assets/img/bootstrap.png" alt="" width="100">
+            <img src="assets/img/tailwind.png" alt="" width="120">
+            <img src="assets/img/php.png" alt="" width="120">
+            <img src="assets/img/laravel.png" alt="" width="100">
+            <img src="assets/img/MySQL.png" alt="" width="120">
+            <img src="assets/img/git.png" alt="" width="120">
+            <img src="assets/img/GitHub.png" alt="" width="120">
+            <img src="assets/img/java.png" alt="" width="80">
+            <img src="assets/img/vue.png" alt="" width="120">
+        </div>
+    </div>
+    <!-- END SKILLS -->
+
+    <!-- PORTFOLIO -->
+    <div class="content-4" id="content-4">
+        <h1>Portfolio</h1>
+        <div class="portfolio-grid">
+
+            <div class="card-project">
+                <img src="assets/img/web-booking.png" alt="Project 1">
+                <div class="card-body">
+                    <h3>Web Booking Tour & Travel</h3>
+                    <p>Project tugas SMK menggunakan Laravel. Fitur utama termasuk sistem booking dan halaman admin
+                        untuk manajemen data.</p>
+                    <a href="https://github.com/zainandhinf/AppBooking-NailTour" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="card-project">
+                <img src="assets/img/web-galeri.png" alt="Project 2">
+                <div class="card-body">
+                    <h3>Web Galeri Foto</h3>
+                    <p>Project Ujikom SMK menggunakan Laravel. Menampilkan dan mengelola foto dengan sistem kategori dan
+                        user management.</p>
+                    <a href="https://github.com/zainandhinf/web-galeri-foto" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="card-project">
+                <img src="assets/img/web-manajemen.png" alt="Project 3">
+                <div class="card-body">
+                    <h3>Web Management Assets</h3>
+                    <p>Project PKL di PTDI, kolaborasi tim menggunakan Laravel. Digunakan untuk manajemen data aset
+                        perusahaan.</p>
+                    <a href="https://github.com/zainandhinf/Management-Assets" target="_blank">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- END PORTFOLIO -->
+
+    <!-- MEDIA -->
+    <div class="content-5" id="content-5">
+        <h1>Media</h1>
+        <div class="gallery">
+            <img src="assets/img/media1.jpg" alt="Media 1">
+            <img src="assets/img/media2.jpg" alt="Media 2">
+            <img src="assets/img/media3.png" alt="Media 3">
+            <img src="assets/img/media4.png" alt="Media 4">
+            <img src="assets/img/media5.png" alt="Media 5">
+        </div>
+    </div>
+    <!-- END MEDIA -->
+    
+    <!-- CONTACT -->
+    <div class="content-6" id="content-6">
+        <div class="footer-container">
+            <h3>Contact Me</h3>
+
+            <p class="email">📧 zainandhi.nur.tif24@polban.ac.id</p>
+
+            <div class="social-links">
+                <a href="https://github.com/zainandhinf" target="_blank">
+                    <img src="assets/img/mdi--github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/zainandhinf_/" target="_blank">
+                    <img src="assets/img/mdi--instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/zainandhi.fathurrohman" target="_blank">
+                    <img src="assets/img/ic--baseline-facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/in/zainandhi-nur-fathurrohman-fathurrohman-b70291350/"
+                target="_blank">
+                    <img src="assets/img/mdi--linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+
+            <p>© 2025 All Rights Reserved | Built by Zainandhi</p>
+        </div>
+    </div>
+    <!-- END CONTACT -->
+    
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
